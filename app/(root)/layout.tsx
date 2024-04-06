@@ -3,12 +3,6 @@ import RightSidebar from "@/components/shared/RightSidebar";
 import Navbar from "@/components/shared/navbar/Navbar";
 import React from "react";
 
-// import dynamic from "next/dynamic";
-
-// const RightSidebar = dynamic(() => import("@/components/shared/RightSidebar"), {
-//   ssr: false,
-// });
-
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="background-light850_dark100 relative">
