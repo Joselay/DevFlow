@@ -5,50 +5,50 @@ import RenderTag from "./RenderTag";
 
 const hotQuestions = [
   {
-    _id: 1,
+    _id: "1",
     title: "How to create a custom hook in React?",
   },
   {
-    _id: 2,
+    _id: "2",
     title: "How to create a custom hook in React?",
   },
   {
-    _id: 3,
+    _id: "3",
     title: "How to create a custom hook in React?",
   },
   {
-    _id: 4,
+    _id: "4",
     title: "How to create a custom hook in React?",
   },
   {
-    _id: 5,
+    _id: "5",
     title: "How to create a custom hook in React?",
   },
 ];
 
 const popularTags = [
   {
-    _id: 1,
+    _id: "1",
     name: "React",
     totalQuestions: 5,
   },
   {
-    _id: 2,
+    _id: "2",
     name: "JavaScript",
     totalQuestions: 5,
   },
   {
-    _id: 3,
+    _id: "3",
     name: "TypeScript",
     totalQuestions: 5,
   },
   {
-    _id: 4,
+    _id: "4",
     name: "Node.js",
     totalQuestions: 5,
   },
   {
-    _id: 5,
+    _id: "5",
     name: "Next.js",
     totalQuestions: 5,
   },
