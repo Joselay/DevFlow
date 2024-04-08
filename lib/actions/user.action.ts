@@ -2,7 +2,6 @@
 
 import User from "@/database/user.model";
 import { connectToDatabase } from "../mongoose";
-import console from "console";
 
 export async function getUserById(params: any) {
   try {
@@ -14,6 +13,5 @@ export async function getUserById(params: any) {
     return user;
   } catch (error) {
     console.log(error);
-    throw error;
   }
 }
