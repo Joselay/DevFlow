@@ -1,4 +1,5 @@
 import { Schema, models, model, Document } from "mongoose";
+// question database
 
 export interface IQuestion extends Document {
   title: string;
