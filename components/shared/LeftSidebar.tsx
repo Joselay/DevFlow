@@ -18,8 +18,6 @@ const LeftSidebar = () => {
             (pathname.includes(item.route) && item.route !== "/") ||
             pathname === item.route;
 
-          // TODO
-
           return (
             <Link
               key={item.route}
