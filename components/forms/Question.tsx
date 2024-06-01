@@ -29,6 +29,8 @@ interface Props {
 }
 
 const Question = ({ mongoUserId }: Props) => {
+  // QuestionsSchema is a zod schema that validates the form fields
+
   const editorRef = useRef(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
@@ -49,7 +51,6 @@ const Question = ({ mongoUserId }: Props) => {
         title: values.title,
         content: values.explanation,
         tags: values.tags,
-        author: JSON.parse(mongoUserId),
       });
 
       router.push("/");
